@@ -1,0 +1,50 @@
+{
+  "rows": [
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kWarning",
+      "model_status": "HighsModelStatus.kTimeLimit",
+      "read_seconds": 1.2591097300173715,
+      "solve_seconds": 3600.010020488,
+      "objective": 256.0000000000123,
+      "max_primal_infeasibility": Infinity,
+      "max_dual_infeasibility": Infinity,
+      "max_relative_primal_infeasibility": Infinity,
+      "max_relative_dual_infeasibility": Infinity,
+      "value_valid": false,
+      "dual_valid": false,
+      "model": "datt256",
+      "archive": "datt256_lp.mps.bz2",
+      "source_format": "mps",
+      "rep": 1,
+      "reported_seconds": 7,
+      "archive_sha256": "a59e35370bcb02f1e6bff7af195bfb6e14ade24800f9ebf64862ac66b7776104",
+      "model_sha256": "5084c4d7b745e7d62853411ea27dff90c3442ac6d8b3af08b41c4b68d1f8df71",
+      "model_bytes": 97513680
+    },
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kWarning",
+      "model_status": "HighsModelStatus.kTimeLimit",
+      "read_seconds": 1.6835088779916987,
+      "solve_seconds": 3600.023746968014,
+      "objective": -300.0,
+      "max_primal_infeasibility": Infinity,
+      "max_dual_infeasibility": Infinity,
+      "max_relative_primal_infeasibility": Infinity,
+      "max_relative_dual_infeasibility": Infinity,
+      "value_valid": false,
+      "dual_valid": false,
+      "model": "graph40-40",
+      "archive": "graph40-40.mps.bz2",
+      "source_format": "mps",
+      "rep": 1,
+      "reported_seconds": 13,
+      "archive_sha256": "879419be39f530996bea7711e16115c0d15057fcb3156599d81953cb6d5c6013",
+      "model_sha256": "6e7aeadd8a6c30eb17b4cd4106914c6493836b9ac1227b76b42219fcc204b143",
+      "model_bytes": 126794220
+    }
+  ]
+}

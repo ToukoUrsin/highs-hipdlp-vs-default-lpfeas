@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kOk",
+      "model_status": "HighsModelStatus.kOptimal",
+      "read_seconds": 0.06288213795050979,
+      "solve_seconds": 812.7252376630204,
+      "objective": 1040.9940409585022,
+      "max_primal_infeasibility": 1.1137410438344375e-12,
+      "max_dual_infeasibility": 2.2016166667526704e-10,
+      "max_relative_primal_infeasibility": 5.568705219172188e-13,
+      "max_relative_dual_infeasibility": 5.369796748177245e-12,
+      "value_valid": true,
+      "dual_valid": true,
+      "objective_recomputed": 1040.9940409585029,
+      "objective_recompute_error": 6.821210263296962e-13,
+      "all_finite_columns": true,
+      "max_primal_violation_recomputed": 5.785788514955925e-13,
+      "negative_control": {
+        "column": 224,
+        "max_primal_violation_after_plus_one": 1.0000000000001426
+      },
+      "basis_validity": 1,
+      "simplex_iterations": 427593,
+      "ipm_iterations": 0,
+      "pdlp_iterations": 0,
+      "model": "qap15",
+      "archive": "qap15.mps.bz2",
+      "source_format": "mps",
+      "rep": 1,
+      "reported_seconds": 7,
+      "archive_sha256": "edc084e9e3d8ccc5dd25f30c6593e6dbb00cba86c5e664c471d1de37ae28b68a",
+      "model_sha256": "a24d84de54c73d7ea01ebaf07739e6884d57794d4b1184c0e01a6a4495695712",
+      "model_bytes": 3513415
+    },
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kWarning",
+      "model_status": "HighsModelStatus.kTimeLimit",
+      "read_seconds": 2.304013633984141,
+      "solve_seconds": 3600.024152565049,
+      "objective": 0.0,
+      "max_primal_infeasibility": Infinity,
+      "max_dual_infeasibility": Infinity,
+      "max_relative_primal_infeasibility": Infinity,
+      "max_relative_dual_infeasibility": Infinity,
+      "value_valid": false,
+      "dual_valid": false,
+      "model": "woodlands09",
+      "archive": "woodlands09.mps.bz2",
+      "source_format": "mps",
+      "rep": 1,
+      "reported_seconds": 19,
+      "archive_sha256": "1efccdbe21a7a4be25d02eee18f57ce98ee5c6abf460e49e4f59127348726fa5",
+      "model_sha256": "ea301f013124c18341fd0cafef66c9295493e94fe93079c2767402623e8f3602",
+      "model_bytes": 148624942
+    }
+  ]
+}

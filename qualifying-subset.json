@@ -1,0 +1,1481 @@
+{
+  "source": {
+    "table": "results/live-benchmark-20261007/lpfeas.html",
+    "table_url": "https://plato.asu.edu/ftp/lpfeas.html",
+    "index": "results/live-benchmark-20261007/lptestset-index.html",
+    "index_url": "https://plato.asu.edu/ftp/lptestset/"
+  },
+  "rule": "HiGHS table cell is numeric and <= 3600 seconds",
+  "table_rows": 65,
+  "qualifying_rows": 54,
+  "undisclosed_rows": 16,
+  "qualifying_undisclosed_rows": 11,
+  "qualifying_disclosed_rows": 43,
+  "qualifying_disclosed_source_rows": 38,
+  "qualifying_public_source_rows": 38,
+  "qualifying_direct_mps_rows": 25,
+  "rows": [
+    {
+      "name": "L1_sixm",
+      "highs_seconds": 98,
+      "highs_cell": "98",
+      "disclosed": true,
+      "public_lptestset_file": "L1_sixm250obs.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/L1_sixm250obs.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "Linf_520c",
+      "highs_seconds": 1063,
+      "highs_cell": "1063",
+      "disclosed": true,
+      "public_lptestset_file": "Linf_520c.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Linf_520c.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "a2864",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "a2864.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/a2864.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "bdry2",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": true,
+      "public_lptestset_file": "bdry2.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/bdry2.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "cont1",
+      "highs_seconds": 6,
+      "highs_cell": "6",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont1.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont1.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "cont11",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont11.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont11.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "datt256",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "datt256_lp.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/datt256_lp.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "dlr1",
+      "highs_seconds": 218,
+      "highs_cell": "218",
+      "disclosed": true,
+      "public_lptestset_file": "dlr1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/dlr1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ex10",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "ex10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/ex10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fhnw-bin1",
+      "highs_seconds": 529,
+      "highs_cell": "529",
+      "disclosed": true,
+      "public_lptestset_file": "fhnw-binschedule1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fhnw-binschedule1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fome13",
+      "highs_seconds": 22,
+      "highs_cell": "22",
+      "disclosed": true,
+      "public_lptestset_file": "fome/fome13.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fome/fome13.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "graph40-40",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "graph40-40.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/graph40-40.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "irish-e",
+      "highs_seconds": 18,
+      "highs_cell": "18",
+      "disclosed": true,
+      "public_lptestset_file": "irish-electricity.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/irish-electricity.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos",
+      "highs_seconds": 115,
+      "highs_cell": "115",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3",
+      "highs_seconds": 38,
+      "highs_cell": "38",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos3.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos3.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3025225",
+      "highs_seconds": 68,
+      "highs_cell": "68",
+      "disclosed": true,
+      "public_lptestset_file": "neos-3025225.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-3025225.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5052403",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5052403-cygnet.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5052403-cygnet.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5251015",
+      "highs_seconds": 85,
+      "highs_cell": "85",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5251015.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5251015.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ns1687037",
+      "highs_seconds": 411,
+      "highs_cell": "411",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1687037.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1687037.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "ns1688926",
+      "highs_seconds": 460,
+      "highs_cell": "460",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1688926.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1688926.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "nug08-3rd",
+      "highs_seconds": 41,
+      "highs_cell": "41",
+      "disclosed": true,
+      "public_lptestset_file": "nug/nug08-3rd.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/nug/nug08-3rd.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "pds-100",
+      "highs_seconds": 63,
+      "highs_cell": "63",
+      "disclosed": true,
+      "public_lptestset_file": "pds/pds-100.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/pds/pds-100.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "psched3-3",
+      "highs_seconds": 67,
+      "highs_cell": "67",
+      "disclosed": true,
+      "public_lptestset_file": "physiciansched3-3.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/physiciansched3-3.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "qap15",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "qap15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/qap15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "rail02",
+      "highs_seconds": 69,
+      "highs_cell": "69",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "rail4284",
+      "highs_seconds": 96,
+      "highs_cell": "96",
+      "disclosed": true,
+      "public_lptestset_file": "rail/rail4284.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rail/rail4284.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "rmine15",
+      "highs_seconds": 116,
+      "highs_cell": "116",
+      "disclosed": true,
+      "public_lptestset_file": "rmine15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rmine15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s82",
+      "highs_seconds": 261,
+      "highs_cell": "261",
+      "disclosed": true,
+      "public_lptestset_file": "s82.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s82.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s100",
+      "highs_seconds": 20,
+      "highs_cell": "20",
+      "disclosed": true,
+      "public_lptestset_file": "s100.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s100.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s250r10",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "s250r10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s250r10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "savsched1",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "savsched1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/savsched1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "scpm1",
+      "highs_seconds": 72,
+      "highs_cell": "72",
+      "disclosed": true,
+      "public_lptestset_file": "scpm1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/scpm1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "shs1023",
+      "highs_seconds": 51,
+      "highs_cell": "51",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "square41",
+      "highs_seconds": 17,
+      "highs_cell": "17",
+      "disclosed": true,
+      "public_lptestset_file": "square41.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/square41.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "stat96v2",
+      "highs_seconds": 198,
+      "highs_cell": "198",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "storm_1000",
+      "highs_seconds": 270,
+      "highs_cell": "270",
+      "disclosed": true,
+      "public_lptestset_file": "misc/stormG2_1000.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/stormG2_1000.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "stp3d",
+      "highs_seconds": 32,
+      "highs_cell": "32",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "support10",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "supportcase10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/supportcase10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "tpl-tub-ws",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "tpl-tub-ws1617.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/tpl-tub-ws1617.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "woodlands09",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "woodlands09.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/woodlands09.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "Dual2_5000",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": true,
+      "public_lptestset_file": "Dual2_5000.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Dual2_5000.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "Primal2_1000",
+      "highs_seconds": 104,
+      "highs_cell": "104",
+      "disclosed": true,
+      "public_lptestset_file": "Primal2_1000.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Primal2_1000.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "thk_48",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": true,
+      "public_lptestset_file": "thk_48.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/thk_48.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "thk_63",
+      "highs_seconds": 1592,
+      "highs_cell": "1592",
+      "disclosed": true,
+      "public_lptestset_file": "thk_63.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/thk_63.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "L1_six1000",
+      "highs_seconds": null,
+      "highs_cell": "m",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "L2CTA3D",
+      "highs_seconds": null,
+      "highs_cell": "m",
+      "disclosed": true,
+      "public_lptestset_file": "L2CTA3D.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/L2CTA3D.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "degme",
+      "highs_seconds": 118,
+      "highs_cell": "118",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "dlr2",
+      "highs_seconds": 4475,
+      "highs_cell": "4475",
+      "disclosed": true,
+      "public_lptestset_file": "dlr2.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/dlr2.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "set-cover",
+      "highs_seconds": 397,
+      "highs_cell": "397",
+      "disclosed": true,
+      "public_lptestset_file": "set-cover-model.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/set-cover-model.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "energy1",
+      "highs_seconds": 321,
+      "highs_cell": "321",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "gamora",
+      "highs_seconds": 243,
+      "highs_cell": "243",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "groot",
+      "highs_seconds": 1827,
+      "highs_cell": "1827",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "heimdall",
+      "highs_seconds": 181,
+      "highs_cell": "181",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "hulk",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "loki",
+      "highs_seconds": 2278,
+      "highs_cell": "2278",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "mars",
+      "highs_seconds": 689,
+      "highs_cell": "689",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "nebula",
+      "highs_seconds": 123,
+      "highs_cell": "123",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test03",
+      "highs_seconds": 628,
+      "highs_cell": "628",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test13",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test43",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test53",
+      "highs_seconds": 123,
+      "highs_cell": "123",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test63",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test83",
+      "highs_seconds": null,
+      "highs_cell": "t",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test93",
+      "highs_seconds": 853,
+      "highs_cell": "853",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "thor",
+      "highs_seconds": 346,
+      "highs_cell": "346",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    }
+  ],
+  "qualifying": [
+    {
+      "name": "L1_sixm",
+      "highs_seconds": 98,
+      "highs_cell": "98",
+      "disclosed": true,
+      "public_lptestset_file": "L1_sixm250obs.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/L1_sixm250obs.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "Linf_520c",
+      "highs_seconds": 1063,
+      "highs_cell": "1063",
+      "disclosed": true,
+      "public_lptestset_file": "Linf_520c.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Linf_520c.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "a2864",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "a2864.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/a2864.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "cont1",
+      "highs_seconds": 6,
+      "highs_cell": "6",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont1.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont1.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "cont11",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont11.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont11.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "datt256",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "datt256_lp.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/datt256_lp.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "dlr1",
+      "highs_seconds": 218,
+      "highs_cell": "218",
+      "disclosed": true,
+      "public_lptestset_file": "dlr1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/dlr1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ex10",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "ex10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/ex10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fhnw-bin1",
+      "highs_seconds": 529,
+      "highs_cell": "529",
+      "disclosed": true,
+      "public_lptestset_file": "fhnw-binschedule1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fhnw-binschedule1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fome13",
+      "highs_seconds": 22,
+      "highs_cell": "22",
+      "disclosed": true,
+      "public_lptestset_file": "fome/fome13.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fome/fome13.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "graph40-40",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "graph40-40.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/graph40-40.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "irish-e",
+      "highs_seconds": 18,
+      "highs_cell": "18",
+      "disclosed": true,
+      "public_lptestset_file": "irish-electricity.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/irish-electricity.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos",
+      "highs_seconds": 115,
+      "highs_cell": "115",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3",
+      "highs_seconds": 38,
+      "highs_cell": "38",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos3.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos3.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3025225",
+      "highs_seconds": 68,
+      "highs_cell": "68",
+      "disclosed": true,
+      "public_lptestset_file": "neos-3025225.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-3025225.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5052403",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5052403-cygnet.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5052403-cygnet.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5251015",
+      "highs_seconds": 85,
+      "highs_cell": "85",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5251015.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5251015.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ns1687037",
+      "highs_seconds": 411,
+      "highs_cell": "411",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1687037.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1687037.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "ns1688926",
+      "highs_seconds": 460,
+      "highs_cell": "460",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1688926.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1688926.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "nug08-3rd",
+      "highs_seconds": 41,
+      "highs_cell": "41",
+      "disclosed": true,
+      "public_lptestset_file": "nug/nug08-3rd.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/nug/nug08-3rd.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "pds-100",
+      "highs_seconds": 63,
+      "highs_cell": "63",
+      "disclosed": true,
+      "public_lptestset_file": "pds/pds-100.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/pds/pds-100.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "psched3-3",
+      "highs_seconds": 67,
+      "highs_cell": "67",
+      "disclosed": true,
+      "public_lptestset_file": "physiciansched3-3.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/physiciansched3-3.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "qap15",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "qap15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/qap15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "rail02",
+      "highs_seconds": 69,
+      "highs_cell": "69",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "rail4284",
+      "highs_seconds": 96,
+      "highs_cell": "96",
+      "disclosed": true,
+      "public_lptestset_file": "rail/rail4284.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rail/rail4284.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "rmine15",
+      "highs_seconds": 116,
+      "highs_cell": "116",
+      "disclosed": true,
+      "public_lptestset_file": "rmine15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rmine15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s82",
+      "highs_seconds": 261,
+      "highs_cell": "261",
+      "disclosed": true,
+      "public_lptestset_file": "s82.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s82.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s100",
+      "highs_seconds": 20,
+      "highs_cell": "20",
+      "disclosed": true,
+      "public_lptestset_file": "s100.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s100.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s250r10",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "s250r10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s250r10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "savsched1",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "savsched1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/savsched1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "scpm1",
+      "highs_seconds": 72,
+      "highs_cell": "72",
+      "disclosed": true,
+      "public_lptestset_file": "scpm1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/scpm1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "shs1023",
+      "highs_seconds": 51,
+      "highs_cell": "51",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "square41",
+      "highs_seconds": 17,
+      "highs_cell": "17",
+      "disclosed": true,
+      "public_lptestset_file": "square41.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/square41.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "stat96v2",
+      "highs_seconds": 198,
+      "highs_cell": "198",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "storm_1000",
+      "highs_seconds": 270,
+      "highs_cell": "270",
+      "disclosed": true,
+      "public_lptestset_file": "misc/stormG2_1000.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/stormG2_1000.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "stp3d",
+      "highs_seconds": 32,
+      "highs_cell": "32",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "support10",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "supportcase10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/supportcase10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "tpl-tub-ws",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "tpl-tub-ws1617.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/tpl-tub-ws1617.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "woodlands09",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "woodlands09.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/woodlands09.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "Primal2_1000",
+      "highs_seconds": 104,
+      "highs_cell": "104",
+      "disclosed": true,
+      "public_lptestset_file": "Primal2_1000.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Primal2_1000.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "thk_63",
+      "highs_seconds": 1592,
+      "highs_cell": "1592",
+      "disclosed": true,
+      "public_lptestset_file": "thk_63.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/thk_63.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "degme",
+      "highs_seconds": 118,
+      "highs_cell": "118",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "set-cover",
+      "highs_seconds": 397,
+      "highs_cell": "397",
+      "disclosed": true,
+      "public_lptestset_file": "set-cover-model.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/set-cover-model.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "energy1",
+      "highs_seconds": 321,
+      "highs_cell": "321",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "gamora",
+      "highs_seconds": 243,
+      "highs_cell": "243",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "groot",
+      "highs_seconds": 1827,
+      "highs_cell": "1827",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "heimdall",
+      "highs_seconds": 181,
+      "highs_cell": "181",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "loki",
+      "highs_seconds": 2278,
+      "highs_cell": "2278",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "mars",
+      "highs_seconds": 689,
+      "highs_cell": "689",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "nebula",
+      "highs_seconds": 123,
+      "highs_cell": "123",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test03",
+      "highs_seconds": 628,
+      "highs_cell": "628",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test53",
+      "highs_seconds": 123,
+      "highs_cell": "123",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "test93",
+      "highs_seconds": 853,
+      "highs_cell": "853",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "thor",
+      "highs_seconds": 346,
+      "highs_cell": "346",
+      "disclosed": false,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    }
+  ],
+  "public_qualifying": [
+    {
+      "name": "L1_sixm",
+      "highs_seconds": 98,
+      "highs_cell": "98",
+      "disclosed": true,
+      "public_lptestset_file": "L1_sixm250obs.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/L1_sixm250obs.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "Linf_520c",
+      "highs_seconds": 1063,
+      "highs_cell": "1063",
+      "disclosed": true,
+      "public_lptestset_file": "Linf_520c.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Linf_520c.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "a2864",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "a2864.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/a2864.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "cont1",
+      "highs_seconds": 6,
+      "highs_cell": "6",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont1.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont1.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "cont11",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "misc/cont11.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/cont11.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "datt256",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "datt256_lp.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/datt256_lp.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "dlr1",
+      "highs_seconds": 218,
+      "highs_cell": "218",
+      "disclosed": true,
+      "public_lptestset_file": "dlr1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/dlr1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ex10",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "ex10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/ex10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fhnw-bin1",
+      "highs_seconds": 529,
+      "highs_cell": "529",
+      "disclosed": true,
+      "public_lptestset_file": "fhnw-binschedule1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fhnw-binschedule1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "fome13",
+      "highs_seconds": 22,
+      "highs_cell": "22",
+      "disclosed": true,
+      "public_lptestset_file": "fome/fome13.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/fome/fome13.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "graph40-40",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "graph40-40.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/graph40-40.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "irish-e",
+      "highs_seconds": 18,
+      "highs_cell": "18",
+      "disclosed": true,
+      "public_lptestset_file": "irish-electricity.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/irish-electricity.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos",
+      "highs_seconds": 115,
+      "highs_cell": "115",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3",
+      "highs_seconds": 38,
+      "highs_cell": "38",
+      "disclosed": true,
+      "public_lptestset_file": "misc/neos3.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/neos3.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "neos3025225",
+      "highs_seconds": 68,
+      "highs_cell": "68",
+      "disclosed": true,
+      "public_lptestset_file": "neos-3025225.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-3025225.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5052403",
+      "highs_seconds": 13,
+      "highs_cell": "13",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5052403-cygnet.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5052403-cygnet.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "neos5251015",
+      "highs_seconds": 85,
+      "highs_cell": "85",
+      "disclosed": true,
+      "public_lptestset_file": "neos-5251015.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/neos-5251015.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "ns1687037",
+      "highs_seconds": 411,
+      "highs_cell": "411",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1687037.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1687037.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "ns1688926",
+      "highs_seconds": 460,
+      "highs_cell": "460",
+      "disclosed": true,
+      "public_lptestset_file": "misc/ns1688926.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/ns1688926.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "nug08-3rd",
+      "highs_seconds": 41,
+      "highs_cell": "41",
+      "disclosed": true,
+      "public_lptestset_file": "nug/nug08-3rd.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/nug/nug08-3rd.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "pds-100",
+      "highs_seconds": 63,
+      "highs_cell": "63",
+      "disclosed": true,
+      "public_lptestset_file": "pds/pds-100.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/pds/pds-100.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "psched3-3",
+      "highs_seconds": 67,
+      "highs_cell": "67",
+      "disclosed": true,
+      "public_lptestset_file": "physiciansched3-3.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/physiciansched3-3.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "qap15",
+      "highs_seconds": 7,
+      "highs_cell": "7",
+      "disclosed": true,
+      "public_lptestset_file": "qap15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/qap15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "rail02",
+      "highs_seconds": 69,
+      "highs_cell": "69",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "rail4284",
+      "highs_seconds": 96,
+      "highs_cell": "96",
+      "disclosed": true,
+      "public_lptestset_file": "rail/rail4284.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rail/rail4284.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "rmine15",
+      "highs_seconds": 116,
+      "highs_cell": "116",
+      "disclosed": true,
+      "public_lptestset_file": "rmine15.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/rmine15.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s82",
+      "highs_seconds": 261,
+      "highs_cell": "261",
+      "disclosed": true,
+      "public_lptestset_file": "s82.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s82.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s100",
+      "highs_seconds": 20,
+      "highs_cell": "20",
+      "disclosed": true,
+      "public_lptestset_file": "s100.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s100.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "s250r10",
+      "highs_seconds": 14,
+      "highs_cell": "14",
+      "disclosed": true,
+      "public_lptestset_file": "s250r10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/s250r10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "savsched1",
+      "highs_seconds": 34,
+      "highs_cell": "34",
+      "disclosed": true,
+      "public_lptestset_file": "savsched1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/savsched1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "scpm1",
+      "highs_seconds": 72,
+      "highs_cell": "72",
+      "disclosed": true,
+      "public_lptestset_file": "scpm1.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/scpm1.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "shs1023",
+      "highs_seconds": 51,
+      "highs_cell": "51",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "square41",
+      "highs_seconds": 17,
+      "highs_cell": "17",
+      "disclosed": true,
+      "public_lptestset_file": "square41.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/square41.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "stat96v2",
+      "highs_seconds": 198,
+      "highs_cell": "198",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "storm_1000",
+      "highs_seconds": 270,
+      "highs_cell": "270",
+      "disclosed": true,
+      "public_lptestset_file": "misc/stormG2_1000.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/misc/stormG2_1000.bz2",
+      "source_format": "emps"
+    },
+    {
+      "name": "stp3d",
+      "highs_seconds": 32,
+      "highs_cell": "32",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "support10",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "supportcase10.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/supportcase10.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "tpl-tub-ws",
+      "highs_seconds": 202,
+      "highs_cell": "202",
+      "disclosed": true,
+      "public_lptestset_file": "tpl-tub-ws1617.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/tpl-tub-ws1617.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "woodlands09",
+      "highs_seconds": 19,
+      "highs_cell": "19",
+      "disclosed": true,
+      "public_lptestset_file": "woodlands09.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/woodlands09.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "Primal2_1000",
+      "highs_seconds": 104,
+      "highs_cell": "104",
+      "disclosed": true,
+      "public_lptestset_file": "Primal2_1000.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/Primal2_1000.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "thk_63",
+      "highs_seconds": 1592,
+      "highs_cell": "1592",
+      "disclosed": true,
+      "public_lptestset_file": "thk_63.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/thk_63.mps.bz2",
+      "source_format": "mps"
+    },
+    {
+      "name": "degme",
+      "highs_seconds": 118,
+      "highs_cell": "118",
+      "disclosed": true,
+      "public_lptestset_file": null,
+      "public_lptestset_url": null,
+      "source_format": null
+    },
+    {
+      "name": "set-cover",
+      "highs_seconds": 397,
+      "highs_cell": "397",
+      "disclosed": true,
+      "public_lptestset_file": "set-cover-model.mps.bz2",
+      "public_lptestset_url": "https://plato.asu.edu/ftp/lptestset/set-cover-model.mps.bz2",
+      "source_format": "mps"
+    }
+  ]
+}

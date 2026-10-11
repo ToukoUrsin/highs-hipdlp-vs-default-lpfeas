@@ -1,0 +1,62 @@
+{
+  "rows": [
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kOk",
+      "model_status": "HighsModelStatus.kOptimal",
+      "read_seconds": 4.740216984995641,
+      "solve_seconds": 2647.8213663919596,
+      "objective": 4629.462794758539,
+      "max_primal_infeasibility": 4.0844554405339295e-09,
+      "max_dual_infeasibility": 2.710505431213761e-19,
+      "max_relative_primal_infeasibility": 4.125712566195888e-11,
+      "max_relative_dual_infeasibility": 2.574980159768947e-19,
+      "value_valid": true,
+      "dual_valid": true,
+      "objective_recomputed": 4629.46279475792,
+      "objective_recompute_error": 6.184563972055912e-10,
+      "all_finite_columns": true,
+      "max_primal_violation_recomputed": 4.0845210188421745e-09,
+      "negative_control": {
+        "column": 428031,
+        "max_primal_violation_after_plus_one": 1.0000000000004547
+      },
+      "basis_validity": 1,
+      "simplex_iterations": 123920,
+      "ipm_iterations": 0,
+      "pdlp_iterations": 0,
+      "model": "L1_sixm",
+      "archive": "L1_sixm250obs.bz2",
+      "source_format": "emps",
+      "rep": 1,
+      "reported_seconds": 98,
+      "archive_sha256": "a473fdb2334cb29db9ca7f4955b1194419549b485a7df1e1c82ef97e82d86532",
+      "model_sha256": "637f5ca3dce9e15c00b22ff343d366b9bed0765f3e0337d1b9f8aef552404df2",
+      "model_bytes": 178266785
+    },
+    {
+      "solver": "choose",
+      "read_status": "HighsStatus.kOk",
+      "run_status": "HighsStatus.kWarning",
+      "model_status": "HighsModelStatus.kTimeLimit",
+      "read_seconds": 12.35774872195907,
+      "solve_seconds": 3600.0365364879835,
+      "objective": -288.9999999961575,
+      "max_primal_infeasibility": Infinity,
+      "max_dual_infeasibility": Infinity,
+      "max_relative_primal_infeasibility": Infinity,
+      "max_relative_dual_infeasibility": Infinity,
+      "value_valid": false,
+      "dual_valid": false,
+      "model": "a2864",
+      "archive": "a2864.mps.bz2",
+      "source_format": "mps",
+      "rep": 1,
+      "reported_seconds": 202,
+      "archive_sha256": "f97c2bbf584347f14a4ac6986c88475ea664fbd077aee99a5be9c35f21fad41a",
+      "model_sha256": "ba381117ede1da55adfd13262e01ba1de412e8cd1706eafb24ea768dc82a663a",
+      "model_bytes": 984403204
+    }
+  ]
+}

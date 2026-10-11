@@ -1,0 +1,253 @@
+{
+ "cap_seconds": 3600.0,
+ "rows": 38,
+ "measured_rows": 38,
+ "choose_solved": 16,
+ "hipdlp_solved": 13,
+ "both_solved": 9,
+ "hipdlp_faster_rows": 10,
+ "choose_faster_rows": 10,
+ "choose_sgm_capped": 1055.4232402368962,
+ "hipdlp_sgm_capped": 928.4190097189697,
+ "hipdlp_vs_choose": -0.12033488147316096,
+ "max_obj_delta_both_solved": 0.00011569447815418243,
+ "table": {
+  "L1_sixm": {
+   "choose": 2647.8213663919596,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 316.80395071802195,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 2.1373125491663814e-10
+  },
+  "Linf_520c": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "a2864": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": 27.184066946036182,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "cont1": {
+   "choose": 150.8586175100063,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 2466.9943142200354,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 2.986633163004626e-11
+  },
+  "cont11": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "datt256": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": 3.9954654169850983,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "dlr1": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "ex10": {
+   "choose": 68.98858429200482,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 5.144000116037205,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 6.6158349909528624e-09
+  },
+  "fhnw-bin1": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "fome13": {
+   "choose": 69.41290393302916,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 85.34052774100564,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 0.00010001659393310547
+  },
+  "graph40-40": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": 4.145802716957405,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "irish-e": {
+   "choose": 135.4270719769993,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kUnknown"
+  },
+  "neos": {
+   "choose": 261.47823141899426,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "neos3": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "neos3025225": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "neos5052403": {
+   "choose": 565.6855665729963,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 275.23306100902846,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 7.702283255639486e-12
+  },
+  "neos5251015": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kUnknown"
+  },
+  "ns1687037": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "ns1688926": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "nug08-3rd": {
+   "choose": 219.43623485200806,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 0.44632043701130897,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 1.1254655873926822e-08
+  },
+  "pds-100": {
+   "choose": 49.33677165402332,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "psched3-3": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "qap15": {
+   "choose": 812.7252376630204,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 13.01077782700304,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 8.775941751082428e-09
+  },
+  "rail4284": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "rmine15": {
+   "choose": 485.85163964901585,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "s82": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "s100": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "s250r10": {
+   "choose": 73.00339837098727,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "savsched1": {
+   "choose": 492.002451302018,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kUnknown"
+  },
+  "scpm1": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "square41": {
+   "choose": 50.97400835901499,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "storm_1000": {
+   "choose": 39.39673820097232,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 1042.0867353449576,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 0.00011569447815418243
+  },
+  "support10": {
+   "choose": 132.0546639469685,
+   "choose_status": "HighsModelStatus.kOptimal",
+   "hipdlp": 51.11811536602909,
+   "hipdlp_status": "HighsModelStatus.kOptimal",
+   "obj_delta": 7.455831507741095e-10
+  },
+  "tpl-tub-ws": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "woodlands09": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": 17.188167147978675,
+   "hipdlp_status": "HighsModelStatus.kOptimal"
+  },
+  "Primal2_1000": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "thk_63": {
+   "choose": null,
+   "choose_status": "child_failed",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  },
+  "set-cover": {
+   "choose": null,
+   "choose_status": "HighsModelStatus.kTimeLimit",
+   "hipdlp": null,
+   "hipdlp_status": "HighsModelStatus.kTimeLimit"
+  }
+ }
+}
