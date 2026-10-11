@@ -58,7 +58,7 @@ HiPDLP passes four rows that default does not finish in an hour (a2864, datt256,
 woodlands09) and is much faster on nug08-3rd (0.4 vs 219 s), qap15 (13 vs 813 s) and L1_sixm
 (317 vs 2,648 s). Default passes seven rows HiPDLP does not (irish-e, neos, pds-100, rmine15,
 s250r10, savsched1, square41; on pds-100 and rmine15 HiPDLP reports Optimal but its recomputed
-primal violation is 1.5e-4 and 1.4e-6). Where both pass, objectives agree within 1.2e-12 relative.
+primal violation is 1.5e-4 and 1.4e-6). Where both pass, objectives agree to within 2.3e-10 relative (largest gap: support10).
 The two solvers are complementary rather than one dominating.
 
 Scope: single thread, one repetition, one host type; HiPDLP returns no basis, so it is not a drop-in
